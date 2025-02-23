@@ -42,6 +42,12 @@
     gap: 10px;
 }
 
+.planos__lista-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .planos__linha {
     background: var(--degrade-verdeAzul);
     background-clip: padding-box;
@@ -63,19 +69,23 @@
     color: var(--branco);
     display: flex;
     flex-direction: column;
-    padding: 1em 2em 0em 2em;
+    justify-content: space-between;
+    width: 300px;
+    min-height: 300px;
+    padding: 1em 2em 2em 2em;
     position: relative;
     margin-bottom: 4em;
     box-shadow: 0px 0px 10px 5px var(--cinza);
 }
 
+
 .planos__plano1,
 .planos__plano2 {
-    font-family: var(--fonte-secundaria);
+    font-weight: 600;
 }
 
 .planos__plano1 {
-    font-size: 6em;
+    font-size: 2rem;
     position: relative;
 
 }
@@ -119,12 +129,6 @@
 .icone--instalacao {
     content: url(../img/planos/instalação.svg.svg);
     width: 1.5em;
-}
-
-.planos__lista-item {
-    display: flex;
-    align-items: center;
-    gap: 5px;
 }
 
 .planos-plano-preco {
@@ -176,18 +180,18 @@
 
 /* tablet*/
 @media screen and (min-width: 728px) {
-   
+
 
     .planos {
-        flex-direction: column;        
+        flex-direction: column;
     }
 
     .planos__div2 {
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        gap: 15px; 
-             
+        gap: 15px;
+
     }
 
     .planos__titulo,
@@ -196,21 +200,22 @@
         /* em px pq em "em" tava dando bug*/
     }
 
-    .planos_card{ position: relative;
-        z-index: 888; 
-        
+    .planos_card {
+        position: relative;
+        z-index: 888;
+
     }
 
 }
 
 /* desktop */
 @media screen and (min-width: 1028px) {
-    .planos__div2 {        
+    .planos__div2 {
         gap: 40px
     }
 
     .planos__botao:hover {
         background: var(--verde-hover);
-        
+
     }
 }
