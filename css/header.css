@@ -98,6 +98,10 @@
     width: 2.3em;
 }
 
+.card__container .card__container-lista .card__lista__itens i{
+font-size: 20px;
+}
+
 
 /* RESPONSIVIDADE TABLET*/
 @media screen and (min-width: 728px) {
