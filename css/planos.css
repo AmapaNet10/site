@@ -48,6 +48,10 @@
     gap: 10px;
 }
 
+.planos__lista i{
+    margin: 10px;
+}
+
 .planos__linha {
     background: var(--degrade-verdeAzul);
     background-clip: padding-box;
@@ -87,7 +91,7 @@
 .planos__plano1 {
     font-size: 2rem;
     position: relative;
-
+margin: 20px;
 }
 
 .planos__plano2 {
