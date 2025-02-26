@@ -97,6 +97,13 @@
     width: 2.3em;
 }
 
+.card__list__texto {
+    margin: 10px 0;        
+    padding: 0 10px;       
+    line-height: 1.5;      
+    word-wrap: break-word; 
+}
+
 
 /* RESPONSIVIDADE TABLET*/
 @media screen and (min-width: 728px) {

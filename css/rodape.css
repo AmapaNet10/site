@@ -17,7 +17,7 @@
     flex-direction: column;
     align-items: space-evenly;
     border-top: solid 1px var(--cinza);
-    width: 100%;    
+    width: 100%;
     padding-top: 1.5em;
 }
 
@@ -62,20 +62,23 @@
 
 /* icones e margem entre eles */
 /* icones rede social */
-.rodape__icone{
+.rodape__icone {
     margin-right: 10px;
 }
-.rodape__icone-insta{
+
+.rodape__icone-insta {
     width: 30px;
 }
-.rodape__icone-whats{
+
+.rodape__icone-whats {
     width: 40px;
 }
 
-.rodape__icone-face{
+.rodape__icone-face {
     width: 30px;
 }
-.rodape__icone-email{
+
+.rodape__icone-email {
     width: 40px;
 }
 
@@ -110,17 +113,17 @@
 .rodape__bairros {
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    align-items: center;
 }
 
-.bairros__lista {  
+.bairros__lista {
     font-size: 10px;
     height: 10em;
     width: 100%;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     flex-wrap: wrap;
-    gap:10px;
+    gap: 10px;
     color: var(--branco)
 }
 
@@ -141,40 +144,43 @@
 
 
 /* TABLET */
-@media screen and (min-width: 728px){  
+@media screen and (min-width: 728px) {
 
     .caixa__footer {
         padding-bottom: 0;
         padding-left: 0;
-      
+
     }
-    .container__primeiro {       
+
+    .container__primeiro {
         flex-direction: column;
         align-items: center;
-        justify-content: initial;             
+        justify-content: initial;
         padding-top: 3em;
     }
-    .div__cima{
+
+    .div__cima {
         display: flex;
         justify-content: space-evenly;
         margin-bottom: 20px;
     }
+
     .rodape__titulo1,
     .titulo__compre-oline,
     .privacidade_titulo {
         font-size: 17px;
     }
-    
+
     .rodape__lista,
     .texto__compre-oline,
-    .privacidade__texto {              
+    .privacidade__texto {
         font-size: 15px;
     }
-    
+
     .titulo__compre-oline {
         margin-top: 0;
     }
-    
+
     .privacidade_titulo {
         margin-top: 40px;
     }
@@ -182,46 +188,46 @@
     /* BAIRROS ATENDIDOS */
     .bairros__titulo {
         font-size: 19px;
-        font-weight: 600;        
+        font-weight: 600;
         margin-top: 0;
     }
 
-    .compre__oline{
+    .compre__oline {
         width: 30%;
         padding: 0 1em;
     }
-    
-    
+
+
     .rodape__bairros {
         width: 80%;
         display: flex;
         flex-direction: column;
-        align-items: center;        
+        align-items: center;
     }
-    
-    .bairros__lista {  
+
+    .bairros__lista {
         font-size: 13px;
         align-items: center;
-        height: 11em;      
-        gap:5px;        
-      
-       
-        
+        height: 11em;
+        gap: 5px;
+
+
+
     }
-    
+
     /* alinhamento do copy */
     .copyright_text {
         color: var(--branco);
         font-size: 14px;
     }
-    
+
     .amapanet__copy {
         color: var(--verde);
         font-weight: 600;
     }
 
     body {
-       
+
         padding-bottom: 0px;
     }
 }
@@ -289,25 +295,25 @@
 
 
 /* desktop */
-@media screen and (min-width: 1028px){
-    .container__primeiro {  
-        width: 70%;     
+@media screen and (min-width: 1028px) {
+    .container__primeiro {
+        width: 70%;
         flex-direction: initial;
         align-items: initial;
-        justify-content: space-between;             
-        padding: 3em 1.5em 0.5em 1.5em ;
+        justify-content: space-between;
+        padding: 3em 1.5em 0.5em 1.5em;
     }
 
-    .conteiner__footer{
+    .conteiner__footer {
         padding-top: 5em;
         padding-bottom: 0;
     }
-   
+
 
     .titulo__compre-oline {
         margin-top: 0;
     }
-    
+
     .privacidade_titulo {
         margin-top: 40px;
     }
@@ -316,36 +322,36 @@
     .bairros__titulo {
         width: initial;
         font-size: 19px;
-        font-weight: 600;        
+        font-weight: 600;
         margin-top: 0;
     }
-    
-    
+
+
     .rodape__bairros {
-        width: initial;       
+        width: initial;
         flex-direction: column;
-        align-items: center;   
+        align-items: center;
     }
 
- 
-    
- 
-    
-    .bairros__lista {  
+
+
+
+
+    .bairros__lista {
         font-size: 13px;
         padding: 0 0.3em;
-        height: 10em;      
-        gap:15px;
-        
+        height: 10em;
+        gap: 15px;
+
     }
-    
+
     /* alinhamento do copy */
     .copyright_text {
         color: var(--branco);
         font-size: 10px;
         margin: 20em 0 1em 0;
     }
-    
+
     .amapanet__copy {
         color: var(--verde);
         font-weight: 600;
@@ -355,6 +361,6 @@
         padding-bottom: 0px;
     }
 
-    
+
 
 }
