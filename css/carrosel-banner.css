@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    min-height: 300px; 
 }
 
 .separado-filho {
@@ -163,6 +164,7 @@
 
 /* tablet */
 @media screen and (min-width: 728px) {
+    
     .swiper__titulo {
         font-size: 16px;
     }
