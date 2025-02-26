@@ -1,4 +1,3 @@
-
 .swiper {
     font-family: var(--fonte-principal);
 }
@@ -7,11 +6,12 @@
     background-image: url(../img/planos\ -\ slide1.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    min-height: 300px; 
+    min-height: 300px;
 }
 
 .separado-filho {
@@ -134,7 +134,7 @@
 }
 
 .info-2__texto1 {
-    
+
     font-size: 10px;
     font-weight: 600;
 
@@ -162,9 +162,16 @@
     transition: all 0.5s;
 }
 
+@media screen and (max-width: 727px) {
+    .swiper-slide {
+        background-size: contain;
+        min-height: 250px;
+    }
+}
+
 /* tablet */
 @media screen and (min-width: 728px) {
-    
+
     .swiper__titulo {
         font-size: 16px;
     }
@@ -174,10 +181,12 @@
         font-size: 1.4em;
         font-weight: 600;
     }
-    .swiper__titulo{
+
+    .swiper__titulo {
         font-size: 1.4em;
     }
-    .swiper__plano{
+
+    .swiper__plano {
         font-size: 0.2em;
         left: 52%;
     }
@@ -190,8 +199,8 @@
         font-size: 13px;
     }
 
-    .info-1__descricao{
-        font-size:0.9em ;
+    .info-1__descricao {
+        font-size: 0.9em;
     }
 
     .simbolo {
@@ -207,25 +216,26 @@
         padding: 1.8em;
     }
 
-    .info-2__texto1{
+    .info-2__texto1 {
         font-size: 0.6em;
     }
 
 
 }
 
-@media screen and (min-width: 1028px){
+@media screen and (min-width: 1028px) {
     .swiper-slide {
         height: 85vh;
-       
+
     }
-   
+
     .swiper__titulo {
         font-size: 2em;
     }
-    .swiper__plano{
-      font-size: 0.2em;
-      left: 53%;
+
+    .swiper__plano {
+        font-size: 0.2em;
+        left: 53%;
 
     }
 
@@ -256,7 +266,7 @@
         width: 40%;
         align-items: center;
         text-align: center;
-        padding: 2em;        
+        padding: 2em;
     }
 
     .swiper__botao {
@@ -265,18 +275,18 @@
         width: 20vw;
     }
 
-    .info-2__texto1{
+    .info-2__texto1 {
         font-size: 0.5em;
     }
 
-    .swiper__texto{
+    .swiper__texto {
         padding: 0 6em;
         margin-bottom: 40px;
         font-size: 28px;
     }
 
-    .swiper__botao:hover {        
-        background: var(--verde-hover);        
+    .swiper__botao:hover {
+        background: var(--verde-hover);
     }
 
 }
