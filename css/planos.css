@@ -44,8 +44,12 @@
 
 .planos__lista-item {
     display: flex;
-    align-items: center;
-    gap: 10px;
+    align-items: center;  
+    gap: 8px;            
+}
+
+.planos__texto {
+    font-weight: 200;
 }
 
 .planos__lista i {
@@ -103,38 +107,6 @@
     border-radius: 2px;
     padding: 2px;
 }
-
-.planos__texto {
-    font-size: 15px;
-    font-weight: 200;
-}
-
-.planos__lista-item {
-    display: flex;
-    align-items: center;
-    /* Garante alinhamento vertical */
-    gap: 8px;
-    /* Espaçamento entre ícone e texto */
-}
-
-.planos__lista-item i {
-    font-size: 16px;
-    /* Ajuste o tamanho do ícone conforme necessário */
-    line-height: 1;
-    /* Garante que o ícone não desalinhe */
-    display: flex;
-    /* Mantém alinhamento correto */
-    align-items: center;
-}
-
-.planos__texto {
-    margin: 0;
-    /* Remove margens padrão */
-    display: flex;
-    align-items: center;
-    /* Mantém alinhado ao ícone */
-}
-
 
 /* icones */
 .icone--donwload {
