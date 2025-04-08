@@ -39,13 +39,14 @@
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 35px;
 }
 
 .planos__lista-item {
     display: flex;
     align-items: center;  
-    gap: 8px;            
+    gap: 8px;  
+    margin: -9px;          
 }
 
 .planos__texto {
